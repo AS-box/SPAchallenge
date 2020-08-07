@@ -8,8 +8,8 @@
 </head>
 <body>
   <div id="app">
-    //カスタムディレクティブを作る時は他のディレクティブと同様に’v−’から始まる名前で利用する
-    <img v-fallback-image src="./logo.png" alt="">
+    <!--カスタムディレクティブを作る時は他のディレクティブと同様に’v−’から始まる名前で利用する-->
+    <img v-fallback-image.once="noImageURL" src="./logo.png" :alt="altText">
   </div>
 <script src="./directive.js"></script>
 </body>
