@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+    <script src="https://unpkg.com/vue@2.5.17"></script>
+</head>
+<body>
+  <div id="app">
+    //カスタムディレクティブを作る時は他のディレクティブと同様に’v−’から始まる名前で利用する
+    <img v-fallback-image src="./logo.png" alt="">
+  </div>
+<script src="./directive.js"></script>
+</body>
+</html>
